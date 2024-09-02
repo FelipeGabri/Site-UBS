@@ -1,0 +1,57 @@
+/*CABECARIO*/
+
+.cabecario {
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 10%;
+    margin: 1em;
+}
+
+.navegacao {
+    display: inline-flex;
+    vertical-align: center;
+    text-align: center;
+}
+
+.navegacao_item {
+    margin: 3em;
+    padding: 5px;
+}
+
+nav a {
+    color: #000000; /* cor texto*/
+    font-weight: bold; /* texto em negrito*/
+    font-size: 20px; /* tamanho texto*/
+    text-decoration: none; /* tira o sublinhado*/
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*CORPO DO SITE*/
+
+.agendamento_texto {
+    color: #000000; /* cor texto*/
+    font-size: 18px; /* tamanho texto*/
+}
+
+.agendamento_botao {
+    color: #000000;
+    font-size: 20px;
+    padding: 1em;
+    border-style: none;
+    border: 20px, none, rgb(197, 69, 69);
+    border-color: rgb(197, 69, 69);
+    border-radius: 20px;
+    background-color: rgb(230, 96, 96);
+    transition: 0.5s;
+}
+
+.agendamento_botao:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    scale: 1.1;
+}
