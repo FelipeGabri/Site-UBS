@@ -1,7 +1,7 @@
 /*CABECARIO*/
 
 .cabecario {
-    background-color: aliceblue;
+    background-color: rgb(214, 236, 255);
 }
 
 .logo {
@@ -33,15 +33,15 @@ nav a:hover {
 
 /*CORPO DO SITE*/
 
-.agendamento_texto {
-    color: #000000; /* cor texto*/
-    font-size: 18px; /* tamanho texto*/
+.agendamento {
+    display: flex;
+    flex-flow: row wrap;
 }
-
 .agendamento_botao {
     color: #000000;
     font-size: 20px;
     padding: 1em;
+    margin: 50px 6em;
     border-style: none;
     border: 20px, none, rgb(197, 69, 69);
     border-color: rgb(197, 69, 69);
@@ -54,4 +54,15 @@ nav a:hover {
     transition: 0.5s;
     cursor: pointer;
     scale: 1.1;
+}
+
+.coluna {
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.coluna-texto{
+    color: #000000; /* cor texto*/
+    font-size: 18px; /* tamanho texto*/
+    margin: 50px 6em;
 }
